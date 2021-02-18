@@ -1,6 +1,14 @@
-/JellyDemo/Saved
-/JellyDemo/Intermediate
-/JellyDemo/.vs
-/JellyDemo/Build
-/JellyDemo/*.sln
-/JellyDemo/*_BuildData.uasset
+###########
+#Project files#
+###########
+*/Saved
+*/Intermediate
+*/.vs
+*/Build
+*.sln
+*/Binaries
+
+###########
+#Asset files#
+###########
+#ex) /JellyDemo/Content/AssetFolderName
