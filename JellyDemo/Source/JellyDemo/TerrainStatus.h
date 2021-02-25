@@ -1,23 +1,23 @@
 #pragma once
 
-#include "JellyStatus.generated.h"
+#include "TerrainStatus.generated.h"
 
 USTRUCT(Atomic, BlueprintType)
-struct FJellyStatus
+struct FTerrainStatus
 {
     GENERATED_USTRUCT_BODY()
 
 public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
-        int32 Aggression;
+        FString Type;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
-        int32 Activity;
+        int32 ResourceAmount;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
-        int32 Reproductivity;
+        int32 ResourceMaxAmount;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
-        int32 Endurability;
+        float ResourceRegenerationSpeed;
 };
 
